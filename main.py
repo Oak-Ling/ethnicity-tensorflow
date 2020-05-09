@@ -162,6 +162,7 @@ def main(_):
         validation_writer.write(str(combination) + '\t')
         validation_writer.write(str(top1) + '\t' + str(top5) + '\tEp:' + str(ep) + '\n')
 
+    # first project test
     validation_writer.close()
 
 if __name__ == '__main__':
